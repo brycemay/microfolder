@@ -1,0 +1,25 @@
+{
+  "name": "microfolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "micro": "^9.3.3",
+    "microrouter": "^3.1.3",
+    "nedb": "^1.8.0",
+    "nedb-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0",
+    "start": "micro --port 4000",
+  }
+}
